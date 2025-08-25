@@ -60,12 +60,18 @@ button:active {
 
 @media (max-width:768px){
   #calculator{
-    height: 600px;
+    height: 650px;
     width: 100%;
   }
+  #keys{
+    grid-template-columns: repeat(4, 1fr);
+    display: grid;
+    gap: 5px;
+    padding: 25px;
+ }
   button {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     border-radius: 50px;
     border: none;
     background-color: hsl(0, 1%, 25%);
